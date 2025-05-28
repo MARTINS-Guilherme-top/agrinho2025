@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+
+body {
+  font-family: 'Stardos Stencil', serif;
+  background: linear-gradient(to right, #3e2723, #4e342e); /* marrom madeira escuro */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #f5f5dc; /* bege claro */
+}
+
+header {
+  background-color: #1b5e20; /* verde-mato */
+  color: #f5f5dc;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  border-bottom: 4px solid #a1887f;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  text-shadow: 2px 2px #000000;
+}
+
+main {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: rgba(245, 245, 220, 0.1); /* bege transparente */
+  border: 2px solid #795548; /* marrom terra */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+section {
+  margin-bottom: 35px;
+}
+
+h2 {
+  color: #c5e1a5;
+  font-size: 2rem;
+  border-bottom: 2px dashed #8bc34a;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
 .image-placeholder {
   margin: 20px 0;
   text-align: center;
@@ -32,4 +83,14 @@
 .gallery img:hover {
   transform: scale(1.05);
   border-color: #c5e1a5;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2e7d32;
+  color: #f1f8e9;
+  margin-top: 40px;
+  border-top: 3px solid #aed581;
+  font-size: 1.2rem;
 }
