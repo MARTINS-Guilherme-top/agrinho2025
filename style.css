@@ -1,66 +1,55 @@
-/* Resetando o estilo */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(to right, #d9a7c7, #fffcdc); /* degrade suave lilás + creme */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #2d2d2d;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #8e44ad;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 header h1 {
-    font-size: 2.5rem;
+  margin: 0;
+  font-size: 2.5rem;
 }
 
-header p {
-    font-size: 1.2rem;
-    margin-top: 10px;
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
 }
 
 section {
-    padding: 20px;
-    margin: 20px 0;
-    background-color: white;
-    border-radius: 8px;
+  margin-bottom: 30px;
 }
 
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+h2 {
+  color: #6a1b9a;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
 }
 
-section p {
-    font-size: 1rem;
-    margin-top: 10px;
-}
-
-img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-top: 15px;
+p {
+  font-size: 1.3rem;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-footer p {
-    font-size: 0.8rem;
+  text-align: center;
+  padding: 20px;
+  background-color: #e1bee7;
+  font-size: 1.2rem;
+  margin-top: 40px;
+  border-top: 2px dashed #ba68c8;
 }
