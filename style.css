@@ -25,7 +25,7 @@ header h1 {
   font-family: 'Stardos Stencil', serif;
   margin: 0;
   font-size: 2.5rem;
-  color: #fff; /* Garantir contraste com o fundo */
+  color: #1b5e20; /* Garantir contraste com o fundo */
 }
 
 nav ul {
