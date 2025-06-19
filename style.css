@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to right, #4e342e, #6d4c41);
-  color: #f5f5dc;
+  background: linear-gradient(to right, #4e342e, #6d4c41); /* Mantendo o gradiente de fundo */
+  color: #f5f5dc; /* Cor do texto */
   margin: 0;
   padding: 0 20px;
   line-height: 1.6;
@@ -52,6 +52,7 @@ main {
   padding: 20px;
   border: 2px solid #795548;
   border-radius: 12px;
+  background-color: transparent; /* Corrigido para não ter fundo branco */
 }
 
 section h2 {
@@ -87,8 +88,7 @@ section {
 }
 
 #agricultura {
-  background-color: #1b5e20; /* Removendo o fundo branco da seção de Agricultura Sustentável */
-  padding: 40px 0;
+  background-color: transparent; /* Corrigido para manter fundo transparente e não branco */
 }
 
 #agricultura h2 {
