@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to right, #4e342e, #6d4c41); /* Mantendo o gradiente de fundo */
-  color: #f5f5dc; /* Cor do texto */
+  background: linear-gradient(to right, #4e342e, #6d4c41);
+  color: #f5f5dc;
   margin: 0;
   padding: 0 20px;
   line-height: 1.6;
@@ -52,17 +52,12 @@ main {
   padding: 20px;
   border: 2px solid #795548;
   border-radius: 12px;
-  background-color: transparent; /* Corrigido para não ter fundo branco */
 }
 
 section h2 {
   color: #c5e1a5;
   font-size: 2rem;
   border-bottom: 2px dashed #8bc34a;
-}
-
-section {
-  padding: 20px 0;
 }
 
 .content {
@@ -88,7 +83,7 @@ section {
 }
 
 #agricultura {
-  background-color: transparent; /* Corrigido para manter fundo transparente e não branco */
+  background-color: transparent; /* Removido fundo branco da seção Agricultura */
 }
 
 #agricultura h2 {
@@ -109,65 +104,4 @@ section {
   margin: 20px 0;
 }
 
-#tecnologia,
-#vida-urbana,
-#preservacao,
-#cultura {
-  padding: 40px 0;
-}
-
-#tecnologia h2,
-#vida-urbana h2,
-#preservacao h2,
-#cultura h2 {
-  color: #c5e1a5;
-  font-size: 2rem;
-  border-bottom: 2px dashed #8bc34a;
-}
-
-#tecnologia .content,
-#vida-urbana .content,
-#preservacao .content,
-#cultura .content {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-#tecnologia .content img,
-#vida-urbana .content img,
-#preservacao .content img,
-#cultura .content img {
-  max-width: 350px;
-  width: 100%;
-  border-radius: 12px;
-  border: 3px solid #8bc34a;
-}
-
-/* Estilo para os links de navegação */
-a {
-  color: #c5e1a5;
-}
-
-a:hover {
-  background-color: #aed581;
-  color: #2e7d32;
-}
-
-/* Estilo para os botões de chamada para ação */
-.cta {
-  background-color: #2e7d32;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 10px;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #1b5e20;
-  color: #f5f5dc;
-  margin-top: 40px;
-}
+#te
